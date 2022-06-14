@@ -17,15 +17,7 @@ var i = 10;
         // Outer function return inner function
         return inner;
     }
-  
-    // Inner preserved the scope of outer
-    // function and variables but each 
-    // time new execution context is
-    // created inner function
     var inner = outer();
-  
-    // Each time execution call complete
-    // then no more exist execution 
-    // context of inner function
+
     inner();
     inner();

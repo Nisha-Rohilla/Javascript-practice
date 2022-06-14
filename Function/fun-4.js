@@ -2,8 +2,8 @@
 var i = 0;
 function run() {
     var j = 1;
-    console.log(i); // This will print 0
-    console.log(j); // This will print 1
+    console.log(i); 
+    console.log(j); 
     var article = "Not publish";
     const result = publish(article);
     console.log(result);

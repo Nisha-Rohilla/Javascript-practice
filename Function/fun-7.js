@@ -9,10 +9,6 @@ function a() {
             var j = 30;
             console.log(j)
         }
-        // console.log(j) 
-        // Gives error because scope is
-        // within c so outer env i.e,
-        // b and a can't access it.
         c();
     }
     b();

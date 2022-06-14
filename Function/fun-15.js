@@ -6,9 +6,7 @@ var double = x => 2 * x;
         console.log(this);
         setTimeout(() =>
             console.log(this), 
-            // Arrow function does not have
-            // own binding so picked from
-            // outer scope
+        
             100)
     };
   

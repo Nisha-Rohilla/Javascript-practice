@@ -12,4 +12,4 @@ var double = x => 2 * x;
             100)
     };
   
-    var p = new Person("gfg")
+    var p = new Person("run")

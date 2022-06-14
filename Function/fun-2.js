@@ -1,13 +1,13 @@
 var i = 0; // Global scope
 // Function define
-function gfg() {
+function run() {
     var j = 1; // Local scope
     console.log(i); // This will print 0
     console.log(j); // This will print 1
 }
 
 // Function call
-gfg()
+run()
 // This statement will throw an error
 // as scope of j is only within 
   

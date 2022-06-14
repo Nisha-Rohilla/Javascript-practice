@@ -8,5 +8,5 @@ function Person(name) {
 }
 
 //object is created and stored it in p
-var p = new Person("gfg");
-var q = new Person("gfg1");
+var p = new Person("run");
+var q = new Person("run1");

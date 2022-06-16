@@ -39,6 +39,9 @@ function addTwo(num) {
   
   // Challenge 4
   function forEach(array, callback) {
+    for(let i=0;i<array.length;i++){
+        callback(array[i])
+      }
   
   }
   
@@ -47,9 +50,7 @@ function addTwo(num) {
   
   // Challenge 5
   function mapWith(array, callback) {
-    for(let i=0;i<array.length;i++){
-      callback(array[i])
-    }
+  
   
   }
   
